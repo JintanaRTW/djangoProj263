@@ -26,25 +26,25 @@ def showMyData(request):
 
     products = []
 
-    product =['vans',3500.00,'../../static/images/vans.png']
+    product =['บรู๊ค',500.00,'../../static/images/a1.png']
     products.append(product)
-    product =['Converse', 3400.00,'../../static/images/conver.png']
+    product =['แฟรงกี้',400.00,'../../static/images/b2.png']
     products.append(product)
-    product =['Nike',3500.00,'../../static/images/nike.png']
+    product =['โลบิ้',200.00,'../../static/images/c3.png']
     products.append(product)
-    product =['Adidas',1650.00,'../../static/images/adidas.png']
+    product =['นามิ',650.00,'../../static/images/d4.png']
     products.append(product)
-    product =['keds', 3210.00,'../../static/images/kede.png']
+    product =['จินเบน',350.00,'../../static/images/e5.png']
     products.append(product)
-    product = [ 'puna', 2500.00,'../../static/images/puma.png']
+    product = [ 'เปอร์',250.00,'../../static/images/f6.png']
     products.append(product)
-    product = ['New balance', 1600.00,'../../static/images/new.png']
+    product = ['ช็อป',600.00,'../../static/images/g7.png']
     products.append(product)
-    product = [ 'onitsuka', 3150.00,'../../static/images/oski.png']
+    product = [ 'อูซบ',750.00,'../../static/images/h8.png']
     products.append(product)
-    product = [ 'Reebok', 999.00,'../../static/images/rebook.png']
+    product = [ 'ซันจิ',820.00,'../../static/images/i9.png']
     products.append(product)
-    product = [ 'lacoste', 1900.00,'../../static/images/จระเข้.png']
+    product = [ 'ลูฟี่',730.00,'../../static/images/qq10.png']
     products.append(product)
 
     context = {'showID':showID,'showName':showName,'showAddress':showAddress,'showtel':showtel,
